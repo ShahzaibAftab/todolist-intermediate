@@ -16,8 +16,6 @@ const Main = () => {
     const [deleteToggle, setDeleteToggle] = useState(false)
     const [deleteBtn, setdeleteBtn] = useState(false)
 
-    const [dataLength, setDataLength] = useState(1)
-
     useEffect(() => {
 
     }, [notepad, markData]);
